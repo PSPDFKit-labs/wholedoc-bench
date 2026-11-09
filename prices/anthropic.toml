@@ -1,0 +1,89 @@
+[[rate]]
+when = { model = "claude-opus-5-5" }
+meter = "input_tokens"
+usd = 4.00
+per = 1_000_000
+effective = 2026-09-22
+checked = 2026-10-22
+source = "https://platform.claude.com/docs/en/about-claude/pricing"
+
+[[rate]]
+when = { model = "claude-opus-5-5" }
+meter = "output_tokens"
+usd = 20.00
+per = 1_000_000
+effective = 2026-09-22
+checked = 2026-10-22
+source = "https://platform.claude.com/docs/en/about-claude/pricing"
+
+[[rate]]
+when = { model = "claude-opus-5-5" }
+meter = "cache_read_input_tokens"
+usd = 0.20
+per = 1_000_000
+effective = 2026-09-22
+checked = 2026-10-22
+source = "https://platform.claude.com/docs/en/about-claude/pricing"
+
+[[rate]]
+when = { model = "claude-opus-5-5" }
+meter = "ephemeral_5m_input_tokens"
+usd = 5.00
+per = 1_000_000
+effective = 2026-09-22
+checked = 2026-10-22
+source = "https://platform.claude.com/docs/en/about-claude/pricing"
+
+[[rate]]
+when = { model = "claude-opus-5-5" }
+meter = "ephemeral_1h_input_tokens"
+usd = 8.00
+per = 1_000_000
+effective = 2026-09-22
+checked = 2026-10-22
+source = "https://platform.claude.com/docs/en/about-claude/pricing"
+
+[[rate]]
+when = { model = "claude-fable-5-1" }
+meter = "input_tokens"
+usd = 10.00
+per = 1_000_000
+effective = 2026-09-01
+checked = 2026-10-22
+source = "https://platform.claude.com/docs/en/about-claude/pricing"
+
+[[rate]]
+when = { model = "claude-fable-5-1" }
+meter = "output_tokens"
+usd = 50.00
+per = 1_000_000
+effective = 2026-09-01
+checked = 2026-10-22
+source = "https://platform.claude.com/docs/en/about-claude/pricing"
+
+[[rate]]
+when = { model = "claude-fable-5-1" }
+meter = "cache_read_input_tokens"
+usd = 0.25
+per = 1_000_000
+effective = 2026-09-01
+checked = 2026-10-22
+source = "https://platform.claude.com/docs/en/about-claude/pricing"
+
+[[rate]]
+when = { model = "claude-fable-5-1" }
+meter = "ephemeral_5m_input_tokens"
+usd = 12.50
+per = 1_000_000
+effective = 2026-09-01
+checked = 2026-10-22
+source = "https://platform.claude.com/docs/en/about-claude/pricing"
+
+[[rate]]
+when = { model = "claude-fable-5-1" }
+meter = "ephemeral_1h_input_tokens"
+usd = 20.00
+per = 1_000_000
+effective = 2026-09-01
+checked = 2026-10-22
+source = "https://platform.claude.com/docs/en/about-claude/pricing"

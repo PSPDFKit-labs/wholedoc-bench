@@ -1,0 +1,15 @@
+[[rate]]
+meter = "credits"
+usd = 0.07
+effective = 2026-10-23
+checked = 2026-10-23
+source = "https://www.databricks.com/product/pricing/ai-functions"
+
+[[rate]]
+meter = "pages"
+credits = 65
+per = 1000
+estimate = true
+effective = 2026-10-23
+checked = 2026-10-23
+source = "https://www.databricks.com/product/pricing/ai-functions"

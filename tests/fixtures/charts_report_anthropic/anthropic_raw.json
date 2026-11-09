@@ -1,0 +1,46 @@
+{
+ "pages": [
+  {
+   "model": "claude-opus-5-5",
+   "stop_reason": "end_turn",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 3024,
+    "output_tokens": 851,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "speed": "standard"
+   },
+   "text": "<div data-bbox=\"[95, 33, 347, 43]\" data-label=\"Page-header\" data-id=\"e1\">Harbour Energy - Market Update Q3 2026</div>\n\n<div data-bbox=\"[95, 76, 429, 98]\" data-label=\"Title\" data-id=\"e2\"># Market Update Q3 2026</div>\n\n<div data-bbox=\"[95, 110, 903, 142]\" data-label=\"Text\" data-id=\"e3\">Demand held up in the third quarter. The chart and the table below show revenue for each region in 2025 and 2026, and the second page shows how energy costs moved.</div>\n\n<div data-bbox=\"[95, 163, 186, 181]\" data-label=\"Section-header\" data-id=\"e4\">## Revenue</div>\n\n<div data-bbox=\"[208, 199, 803, 459]\" data-label=\"Chart\" data-id=\"e5\" data-chart-type=\"bar\"><table>\n<caption>Revenue by region (EUR m)</caption>\n<tr><th>Region</th><th>2025</th><th>2026</th></tr>\n<tr><td>North</td><td>38.5</td><td>42.1</td></tr>\n<tr><td>South</td><td>29.0</td><td>31.0</td></tr>\n<tr><td>East</td><td>24.1</td><td>28.4</td></tr>\n<tr><td>West</td><td>36.2</td><td>35.7</td></tr>\n</table></div>\n\n<div data-bbox=\"[163, 474, 472, 486]\" data-label=\"Caption\" data-id=\"e6\" data-caption-of=\"e5\">*Figure 1: Revenue by region, 2025 and 2026.*</div>\n\n<div data-bbox=\"[163, 503, 418, 515]\" data-label=\"Caption\" data-id=\"e7\" data-caption-of=\"e8\">*Table 1: Revenue by region (EUR m)*</div>\n\n<div data-bbox=\"[163, 520, 842, 623]\" data-label=\"Table\" data-id=\"e8\"><table>\n<tr><th>Region</th><th>2025</th><th>2026</th></tr>\n<tr><td>North</td><td>38.5</td><td>42.1</td></tr>\n<tr><td>South</td><td>29.0</td><td>31.0</td></tr>\n<tr><td>East</td><td>24.1</td><td>28.4</td></tr>\n<tr><td>West</td><td>36.2</td><td>35.7</td></tr>\n</table></div>\n\n<div data-bbox=\"[495, 962, 505, 973]\" data-label=\"Page-footer\" data-id=\"e9\">1</div>"
+  },
+  {
+   "model": "claude-opus-5-5",
+   "stop_reason": "end_turn",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 2880,
+    "output_tokens": 583,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "speed": "standard"
+   },
+   "text": "<div data-bbox=\"[95, 25, 348, 37]\" data-label=\"Page-header\" data-id=\"e1\">Harbour Energy - Market Update Q3 2026</div>\n<div data-bbox=\"[95, 69, 214, 86]\" data-label=\"Section-header\" data-id=\"e2\">## Energy costs</div>\n<div data-bbox=\"[95, 98, 896, 130]\" data-label=\"Text\" data-id=\"e3\">Energy costs rose in the summer and eased in September. The line chart shows the monthly cost per tonne moved.</div>\n<div data-bbox=\"[165, 150, 828, 425]\" data-label=\"Chart\" data-id=\"e4\" data-chart-type=\"line\"><table><caption>Energy cost per tonne (EUR)</caption><tr><th>Month</th><th>Energy</th></tr><tr><td>Apr</td><td>11.2</td></tr><tr><td>May</td><td>12.0</td></tr><tr><td>Jun</td><td>13.8</td></tr><tr><td>Jul</td><td>15.1</td></tr><tr><td>Aug</td><td>14.6</td></tr><tr><td>Sep</td><td>12.9</td></tr></table></div>\n<div data-bbox=\"[190, 435, 483, 449]\" data-label=\"Caption\" data-id=\"e5\" data-caption-of=\"e4\">*Figure 2: Monthly energy cost per tonne moved.*</div>\n<div data-bbox=\"[95, 465, 696, 481]\" data-label=\"Text\" data-id=\"e6\">We expect costs to stay close to the September level for the rest of the year.</div>\n<div data-bbox=\"[494, 948, 505, 960]\" data-label=\"Page-footer\" data-id=\"e7\">2</div>"
+  }
+ ]
+}

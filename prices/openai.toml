@@ -1,0 +1,73 @@
+[[rate]]
+when = { model = "gpt-6.1-sol" }
+meter = "uncached_input_tokens"
+usd = 2.00
+per = 1_000_000
+effective = 2026-09-29
+checked = 2026-10-22
+source = "https://developers.openai.com/api/docs/pricing"
+
+[[rate]]
+when = { model = "gpt-6.1-sol" }
+meter = "cached_tokens"
+usd = 0.10
+per = 1_000_000
+effective = 2026-09-29
+checked = 2026-10-22
+source = "https://developers.openai.com/api/docs/pricing"
+
+[[rate]]
+when = { model = "gpt-6.1-sol" }
+meter = "cache_write_tokens"
+usd = 2.50
+per = 1_000_000
+estimate = true
+effective = 2026-09-29
+checked = 2026-10-22
+source = "https://developers.openai.com/api/docs/pricing"
+
+[[rate]]
+when = { model = "gpt-6.1-sol" }
+meter = "output_tokens"
+usd = 10.00
+per = 1_000_000
+effective = 2026-09-29
+checked = 2026-10-22
+source = "https://developers.openai.com/api/docs/pricing"
+
+[[rate]]
+when = { model = "gpt-6-luna" }
+meter = "uncached_input_tokens"
+usd = 0.10
+per = 1_000_000
+effective = 2026-09-22
+checked = 2026-10-22
+source = "https://developers.openai.com/api/docs/pricing"
+
+[[rate]]
+when = { model = "gpt-6-luna" }
+meter = "cached_tokens"
+usd = 0.01
+per = 1_000_000
+effective = 2026-09-22
+checked = 2026-10-22
+source = "https://developers.openai.com/api/docs/pricing"
+
+[[rate]]
+when = { model = "gpt-6-luna" }
+meter = "cache_write_tokens"
+usd = 0.125
+per = 1_000_000
+estimate = true
+effective = 2026-09-22
+checked = 2026-10-22
+source = "https://developers.openai.com/api/docs/pricing"
+
+[[rate]]
+when = { model = "gpt-6-luna" }
+meter = "output_tokens"
+usd = 0.50
+per = 1_000_000
+effective = 2026-09-22
+checked = 2026-10-22
+source = "https://developers.openai.com/api/docs/pricing"

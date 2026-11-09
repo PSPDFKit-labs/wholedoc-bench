@@ -1,0 +1,73 @@
+[project]
+name = "wholedoc-bench"
+version = "1.0.0"
+license = "Apache-2.0"
+description = "Benchmark for Nutrient document parsing"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fuzzysearch>=0.8.1",
+    "httpx>=0.28.1",
+    "numpy>=2.5.3",
+    "pydantic>=2.13.5",
+    "pysbd>=0.3.4",
+    "rapidfuzz>=3.14.6",
+    "scipy>=1.18.1",
+]
+
+[project.optional-dependencies]
+parsers = [
+    "docling==2.131.0",
+    "markitdown[docx,pdf,xlsx]==0.1.8",
+    "pymupdf==2.0",
+]
+textract = [
+    "boto3>=1.43.113",
+    "pypdf[crypto]>=6.20.1",
+]
+anthropic = [
+    "anthropic>=1.15.0",
+    "pypdf[crypto]>=6.20.1",
+]
+openai = [
+    "openai>=3.31.0",
+    "pypdf[crypto]>=6.20.1",
+]
+
+[project.scripts]
+wholedoc-bench = "wholedoc_bench.cli:main"
+
+[build-system]
+requires = ["uv_build>=0.9.18,<0.10.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "anthropic>=1.15.0",
+    "boto3>=1.43.113",
+    "jsonschema>=4.26.0",
+    "openai>=3.31.0",
+    "pre-commit>=4.6.2",
+    "pypdf[crypto]>=6.20.1",
+    "pyright>=1.1.414",
+    "pytest>=9.1.1",
+    "ruff>=0.16.8",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py313"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+
+[tool.uv.build-backend]
+module-name = "wholedoc_bench"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.pyright]
+include = ["src", "tests"]
+pythonVersion = "3.13"
+typeCheckingMode = "standard"

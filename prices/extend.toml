@@ -1,0 +1,58 @@
+[[rate]]
+meter = "credits"
+usd = 0.01
+effective = 2026-10-22
+checked = 2026-10-22
+source = "https://www.extend.ai/pricing"
+
+[[rate]]
+when = { engine = "parse_light" }
+meter = "pages"
+credits = 0.5
+effective = 2026-10-22
+checked = 2026-10-22
+source = "https://docs.extend.ai/general/how-credits-work"
+
+[[rate]]
+when = { engine = "parse_performance" }
+meter = "pages"
+credits = 2
+effective = 2026-10-22
+checked = 2026-10-22
+source = "https://docs.extend.ai/general/how-credits-work"
+
+[[rate]]
+when = { engine = "parse_performance", agentic_text = true }
+meter = "pages"
+credits = 3
+estimate = true
+effective = 2026-10-22
+checked = 2026-10-22
+source = "https://docs.extend.ai/general/how-credits-work"
+
+[[rate]]
+when = { engine = "parse_light", agentic_text = true }
+meter = "pages"
+credits = 1.5
+estimate = true
+effective = 2026-10-22
+checked = 2026-10-22
+source = "https://docs.extend.ai/general/how-credits-work"
+
+[[rate]]
+when = { engine = "parse_auto" }
+meter = "pages"
+credits = 2
+estimate = true
+effective = 2026-10-22
+checked = 2026-10-22
+source = "https://docs.extend.ai/general/how-credits-work"
+
+[[rate]]
+when = { engine = "parse_auto", agentic_text = true }
+meter = "pages"
+credits = 3
+estimate = true
+effective = 2026-10-22
+checked = 2026-10-22
+source = "https://docs.extend.ai/general/how-credits-work"

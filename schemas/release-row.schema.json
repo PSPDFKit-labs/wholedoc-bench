@@ -1,0 +1,134 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "pattern": "^np-[0-9]{5}$",
+      "title": "Id",
+      "type": "string"
+    },
+    "document_path": {
+      "title": "Document Path",
+      "type": "string"
+    },
+    "document_sha256": {
+      "pattern": "^[0-9a-f]{64}$",
+      "title": "Document Sha256",
+      "type": "string"
+    },
+    "format": {
+      "pattern": "^[a-z][a-z0-9]*$",
+      "title": "Format",
+      "type": "string"
+    },
+    "pages": {
+      "minimum": 1,
+      "title": "Pages",
+      "type": "integer"
+    },
+    "language": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Language",
+      "type": "array"
+    },
+    "scan": {
+      "title": "Scan",
+      "type": "boolean"
+    },
+    "category": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "title": "Category"
+    },
+    "tracks": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Tracks",
+      "type": "array"
+    },
+    "supported_metrics": {
+      "items": {
+        "pattern": "^T[1-9][0-9]*\\.[a-z][a-z0-9_]*$",
+        "type": "string"
+      },
+      "title": "Supported Metrics",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "limits": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "title": "Limits"
+    },
+    "groundtruth_source": {
+      "title": "Groundtruth Source",
+      "type": "string"
+    },
+    "licence": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "title": "Licence"
+    },
+    "attribution": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "title": "Attribution"
+    },
+    "groundtruth_path": {
+      "title": "Groundtruth Path",
+      "type": "string"
+    },
+    "groundtruth_sha256": {
+      "pattern": "^[0-9a-f]{64}$",
+      "title": "Groundtruth Sha256",
+      "type": "string"
+    }
+  },
+  "required": [
+    "id",
+    "document_path",
+    "document_sha256",
+    "format",
+    "pages",
+    "language",
+    "scan",
+    "category",
+    "tracks",
+    "supported_metrics",
+    "limits",
+    "groundtruth_source",
+    "licence",
+    "attribution",
+    "groundtruth_path",
+    "groundtruth_sha256"
+  ],
+  "title": "ReleaseRow",
+  "type": "object"
+}

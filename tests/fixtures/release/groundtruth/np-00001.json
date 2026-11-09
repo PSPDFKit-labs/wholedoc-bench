@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.1",
+  "document": {
+    "id": "np-00001",
+    "sha256": "b63c4ffacf51abbbb432c7f11cb0f159b726fe38742f1d3c09504bfbf3aa1942",
+    "source": "born-digital",
+    "groundtruth_source": "generator",
+    "language": [
+      "en"
+    ],
+    "pages": [
+      {
+        "index": 0,
+        "width": 400,
+        "height": 300
+      }
+    ]
+  },
+  "elements": [
+    {
+      "id": "h1",
+      "class": "heading",
+      "page": 0,
+      "level": 1,
+      "text": "Library notice"
+    },
+    {
+      "id": "p1",
+      "class": "paragraph",
+      "page": 0,
+      "text": "The library opens at nine."
+    }
+  ],
+  "reading_order": [
+    "h1",
+    "p1"
+  ]
+}

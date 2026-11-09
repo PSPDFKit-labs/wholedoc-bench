@@ -1,0 +1,42 @@
+[[rate]]
+meter = "pages"
+usd = 10.00
+per = 1000
+effective = 2021-08-01
+checked = 2026-10-22
+source = "https://azure.microsoft.com/en-us/pricing/details/document-intelligence/"
+
+[[rate]]
+meter = "ocrHighResolution_pages"
+usd = 6.00
+per = 1000
+estimate = true
+effective = 2024-11-01
+checked = 2026-10-22
+source = "https://azure.microsoft.com/en-us/pricing/details/document-intelligence/"
+
+[[rate]]
+meter = "formulas_pages"
+usd = 6.00
+per = 1000
+estimate = true
+effective = 2024-11-01
+checked = 2026-10-22
+source = "https://azure.microsoft.com/en-us/pricing/details/document-intelligence/"
+
+[[rate]]
+meter = "styleFont_pages"
+usd = 6.00
+per = 1000
+estimate = true
+effective = 2024-11-01
+checked = 2026-10-22
+source = "https://azure.microsoft.com/en-us/pricing/details/document-intelligence/"
+
+[[rate]]
+meter = "barcodes_pages"
+usd = 0
+per = 1000
+effective = 2024-11-01
+checked = 2026-10-22
+source = "https://learn.microsoft.com/en-us/azure/ai-services/document-intelligence/concept/add-on-capabilities?view=doc-intel-4.0.0"

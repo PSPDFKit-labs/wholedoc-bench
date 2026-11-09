@@ -1,0 +1,407 @@
+{
+ "document": {
+  "elements": [
+   {
+    "bbox": [
+     {
+      "coord": [
+       152,
+       73,
+       574,
+       98
+      ],
+      "page_id": 0
+     }
+    ],
+    "content": "Northwind Logistics - Annual Review 2026",
+    "confidence": 1.0,
+    "description": null,
+    "id": 0,
+    "type": "page_header"
+   },
+   {
+    "bbox": [
+     {
+      "coord": [
+       152,
+       175,
+       638,
+       220
+      ],
+      "page_id": 0
+     }
+    ],
+    "content": "Annual Review 2026",
+    "confidence": 1.0,
+    "description": null,
+    "id": 1,
+    "type": "title"
+   },
+   {
+    "bbox": [
+     {
+      "coord": [
+       152,
+       257,
+       1489,
+       330
+      ],
+      "page_id": 0
+     }
+    ],
+    "content": "This review covers the twelve months to 31 March 2026. It sets out how the network performed, what\nchanged for our people, and the results for each region. All figures are in euro unless a table says otherwise.",
+    "confidence": 1.0,
+    "description": null,
+    "id": 2,
+    "type": "text"
+   },
+   {
+    "bbox": [
+     {
+      "coord": [
+       152,
+       386,
+       347,
+       426
+      ],
+      "page_id": 0
+     }
+    ],
+    "content": "Operations",
+    "confidence": 1.0,
+    "description": null,
+    "id": 3,
+    "type": "section_header"
+   },
+   {
+    "bbox": [
+     {
+      "coord": [
+       152,
+       444,
+       802,
+       800
+      ],
+      "page_id": 0
+     }
+    ],
+    "content": "The network moved 1.8 million parcels, a rise of 7\npercent on the year before. The new hub in Leipzig\nopened in September and now handles a third of the\neastern volume. Late deliveries fell to 2.1 percent.\n\nThe warehouse team rebuilt the sorting line during\nthe summer. The work took six weeks and was\nplanned around the quiet months, so customers saw\nno delay. The new line reads every label twice and\nsends unclear parcels to a",
+    "confidence": 1.0,
+    "description": null,
+    "id": 4,
+    "type": "text"
+   },
+   {
+    "bbox": [
+     {
+      "coord": [
+       852,
+       386,
+       1446,
+       454
+      ],
+      "page_id": 0
+     }
+    ],
+    "content": "person, who checks them by hand. Errors at the\nsorting stage are down by half.",
+    "confidence": 1.0,
+    "description": null,
+    "id": 5,
+    "type": "text"
+   },
+   {
+    "bbox": [
+     {
+      "coord": [
+       852,
+       494,
+       974,
+       533
+      ],
+      "page_id": 0
+     }
+    ],
+    "content": "People",
+    "confidence": 1.0,
+    "description": null,
+    "id": 6,
+    "type": "section_header"
+   },
+   {
+    "bbox": [
+     {
+      "coord": [
+       852,
+       554,
+       1499,
+       945
+      ],
+      "page_id": 0
+     }
+    ],
+    "content": "José Müller joined as head of operations in May.\nStaff who recieve a parcel at the front desk now log\nit at once, which ends the old paper list. The café in\nthe Zürich office reopened after its façade was\nrepaired.\n\nTraining hours per person rose to 21. Most of the\nnew courses cover safe driving and first aid, and\nevery driver now finishes the road safety course in\nthe first month. The training team also measured the\nper-",
+    "confidence": 1.0,
+    "description": null,
+    "id": 7,
+    "type": "text"
+   },
+   {
+    "bbox": [
+     {
+      "coord": [
+       817,
+       2234,
+       834,
+       2257
+      ],
+      "page_id": 0
+     }
+    ],
+    "content": "1",
+    "confidence": 1.0,
+    "description": null,
+    "id": 8,
+    "type": "page_number"
+   },
+   {
+    "bbox": [
+     {
+      "coord": [
+       152,
+       70,
+       574,
+       101
+      ],
+      "page_id": 1
+     }
+    ],
+    "content": "Northwind Logistics - Annual Review 2026",
+    "confidence": 1.0,
+    "description": null,
+    "id": 9,
+    "type": "page_header"
+   },
+   {
+    "bbox": [
+     {
+      "coord": [
+       152,
+       168,
+       1011,
+       201
+      ],
+      "page_id": 1
+     }
+    ],
+    "content": "formance of each course and dropped the two with the lowest scores.",
+    "confidence": 1.0,
+    "description": null,
+    "id": 10,
+    "type": "text"
+   },
+   {
+    "bbox": [
+     {
+      "coord": [
+       152,
+       246,
+       460,
+       290
+      ],
+      "page_id": 1
+     }
+    ],
+    "content": "Results by region",
+    "confidence": 1.0,
+    "description": null,
+    "id": 11,
+    "type": "section_header"
+   },
+   {
+    "bbox": [
+     {
+      "coord": [
+       152,
+       309,
+       1472,
+       447
+      ],
+      "page_id": 1
+     }
+    ],
+    "content": "Revenue grew in nine of the twelve regions. The table lists each region with its revenue, the change on last\nyear and the share of parcels delivered on time.\n\nTable 1: Results by region, 2026",
+    "confidence": 1.0,
+    "description": null,
+    "id": 12,
+    "type": "text"
+   },
+   {
+    "bbox": [
+     {
+      "coord": [
+       268,
+       458,
+       1384,
+       931
+      ],
+      "page_id": 1
+     }
+    ],
+    "content": "<table><tr><th>Region</th><th>Revenue (EUR m)</th><th>Change</th><th>On time</th></tr><tr><td>North</td><td>42.1</td><td>+6.2%</td><td>97.9%</td></tr><tr><td>South</td><td>31.0</td><td>+3.1%</td><td>98.4%</td></tr><tr><td>East</td><td>28.4</td><td>+11.5%</td><td>96.1%</td></tr><tr><td>West</td><td>35.7</td><td>-1.2%</td><td>97.2%</td></tr><tr><td>Central</td><td>22.9</td><td>+4.0%</td><td>98.8%</td></tr><tr><td>Alpine</td><td>12.3</td><td>-3.4%</td><td>95.5%</td></tr><tr><td>Coast</td><td>18.6</td><td>+2.2%</td><td>97.0%</td></tr><tr><td>Islands</td><td>7.4</td><td>+0.8%</td><td>93.9%</td></tr><tr><td>Border</td><td>9.9</td><td>+5.5%</td><td>96.6%</td></tr></table>",
+    "confidence": 0.9999,
+    "description": null,
+    "id": 13,
+    "type": "table"
+   },
+   {
+    "bbox": [
+     {
+      "coord": [
+       817,
+       2234,
+       835,
+       2259
+      ],
+      "page_id": 1
+     }
+    ],
+    "content": "2",
+    "confidence": 1.0,
+    "description": null,
+    "id": 14,
+    "type": "page_number"
+   },
+   {
+    "bbox": [
+     {
+      "coord": [
+       152,
+       70,
+       574,
+       101
+      ],
+      "page_id": 2
+     }
+    ],
+    "content": "Northwind Logistics - Annual Review 2026",
+    "confidence": 1.0,
+    "description": null,
+    "id": 15,
+    "type": "page_header"
+   },
+   {
+    "bbox": [
+     {
+      "coord": [
+       268,
+       161,
+       1383,
+       356
+      ],
+      "page_id": 2
+     }
+    ],
+    "content": "<table><tr><th>Region</th><th>Revenue (EUR m)</th><th>Change</th><th>On time</th></tr><tr><td>Metro</td><td>51.2</td><td>+8.9%</td><td>98.1%</td></tr><tr><td>Rural</td><td>6.1</td><td>-0.5%</td><td>94.2%</td></tr><tr><td>Airport</td><td>14.8</td><td>+9.7%</td><td>99.0%</td></tr></table>",
+    "confidence": 0.9998,
+    "description": null,
+    "id": 16,
+    "type": "table"
+   },
+   {
+    "bbox": [
+     {
+      "coord": [
+       268,
+       365,
+       792,
+       395
+      ],
+      "page_id": 2
+     }
+    ],
+    "content": "* Figures are unaudited and rounded to one decimal.",
+    "confidence": 1.0,
+    "description": null,
+    "id": 17,
+    "type": "footnote"
+   },
+   {
+    "bbox": [
+     {
+      "coord": [
+       152,
+       454,
+       294,
+       489
+      ],
+      "page_id": 2
+     }
+    ],
+    "content": "Outlook",
+    "confidence": 1.0,
+    "description": null,
+    "id": 18,
+    "type": "section_header"
+   },
+   {
+    "bbox": [
+     {
+      "coord": [
+       152,
+       512,
+       1484,
+       585
+      ],
+      "page_id": 2
+     }
+    ],
+    "content": "Next year we plan to open a second hub in the south and to move all returns from our eBay shop to the new\nline. The board expects revenue to grow by about 5 percent.",
+    "confidence": 1.0,
+    "description": null,
+    "id": 19,
+    "type": "text"
+   },
+   {
+    "bbox": [
+     {
+      "coord": [
+       817,
+       2234,
+       835,
+       2257
+      ],
+      "page_id": 2
+     }
+    ],
+    "content": "3",
+    "confidence": 1.0,
+    "description": null,
+    "id": 20,
+    "type": "page_number"
+   }
+  ],
+  "pages": [
+   {
+    "id": 0,
+    "image_width": 1654,
+    "image_height": 2339
+   },
+   {
+    "id": 1,
+    "image_width": 1654,
+    "image_height": 2339
+   },
+   {
+    "id": 2,
+    "image_width": 1654,
+    "image_height": 2339
+   }
+  ]
+ },
+ "error_status": null,
+ "metadata": {
+  "id": "d64f2fca-33ec-471b-97d6-d3c340fb92a8",
+  "version": "2.0",
+  "file_metadata": null
+ }
+}

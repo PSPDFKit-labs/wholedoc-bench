@@ -1,0 +1,67 @@
+{
+ "pages": [
+  {
+   "model": "claude-opus-5-5",
+   "stop_reason": "end_turn",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 3176,
+    "output_tokens": 781,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "speed": "standard"
+   },
+   "text": "<div data-bbox=\"[95, 34, 347, 43]\" data-label=\"Page-header\" data-id=\"e1\">Northwind Logistics - Annual Review 2026</div>\n<div data-bbox=\"[95, 75, 386, 98]\" data-label=\"Title\" data-id=\"e2\"># Annual Review 2026</div>\n<div data-bbox=\"[95, 106, 905, 141]\" data-label=\"Text\" data-id=\"e3\">This review covers the twelve months to 31 March 2026. It sets out how the network performed, what changed for our people, and the results for each region. All figures are in euro unless a table says otherwise.</div>\n<div data-bbox=\"[95, 166, 210, 182]\" data-label=\"Section-header\" data-id=\"e4\">## Operations</div>\n<div data-bbox=\"[95, 191, 476, 255]\" data-label=\"Text\" data-id=\"e5\">The network moved 1.8 million parcels, a rise of 7 percent on the year before. The new hub in Leipzig opened in September and now handles a third of the eastern volume. Late deliveries fell to 2.1 percent.</div>\n<div data-bbox=\"[95, 265, 476, 343]\" data-label=\"Text\" data-id=\"e6\">The warehouse team rebuilt the sorting line during the summer. The work took six weeks and was planned around the quiet months, so customers saw no delay. The new line reads every label twice and sends unclear parcels to a person, who checks them by hand. Errors at the sorting stage are down by half.</div>\n<div data-bbox=\"[518, 211, 592, 228]\" data-label=\"Section-header\" data-id=\"e8\">## People</div>\n<div data-bbox=\"[518, 236, 903, 316]\" data-label=\"Text\" data-id=\"e9\">José Müller joined as head of operations in May. Staff who recieve a parcel at the front desk now log it at once, which ends the old paper list. The café in the Zürich office reopened after its façade was repaired.</div>\n<div data-bbox=\"[518, 325, 905, 418]\" data-label=\"Text\" data-id=\"e10\">Training hours per person rose to 21. Most of the new courses cover safe driving and first aid, and every driver now finishes the road safety course in the first month. The training team also measured the per-</div>\n<div data-bbox=\"[494, 961, 506, 971]\" data-label=\"Page-footer\" data-id=\"e11\">1</div>"
+  },
+  {
+   "model": "claude-opus-5-5",
+   "stop_reason": "end_turn",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 3058,
+    "output_tokens": 827,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "speed": "standard"
+   },
+   "text": "<div data-bbox=\"[95, 32, 348, 44]\" data-label=\"Page-header\" data-id=\"e1\">Northwind Logistics - Annual Review 2026</div>\n\n<div data-bbox=\"[95, 75, 612, 90]\" data-label=\"Text\" data-id=\"e2\">formance of each course and dropped the two with the lowest scores.</div>\n\n<div data-bbox=\"[95, 107, 280, 124]\" data-label=\"Section-header\" data-id=\"e3\">## Results by region</div>\n\n<div data-bbox=\"[95, 132, 894, 162]\" data-label=\"Text\" data-id=\"e4\">Revenue grew in nine of the twelve regions. The table lists each region with its revenue, the change on last year and the share of parcels delivered on time.</div>\n\n<div data-bbox=\"[95, 178, 285, 191]\" data-label=\"Caption\" data-id=\"e5\" data-caption-of=\"e6\">*Table 1: Results by region, 2026*</div>\n\n<div data-bbox=\"[163, 198, 840, 400]\" data-label=\"Table\" data-id=\"e6\">\n<table>\n<tr><th>Region</th><th>Revenue (EUR m)</th><th>Change</th><th>On time</th></tr>\n<tr><td>North</td><td>42.1</td><td>+6.2%</td><td>97.9%</td></tr>\n<tr><td>South</td><td>31.0</td><td>+3.1%</td><td>98.4%</td></tr>\n<tr><td>East</td><td>28.4</td><td>+11.5%</td><td>96.1%</td></tr>\n<tr><td>West</td><td>35.7</td><td>-1.2%</td><td>97.2%</td></tr>\n<tr><td>Central</td><td>22.9</td><td>+4.0%</td><td>98.8%</td></tr>\n<tr><td>Alpine</td><td>12.3</td><td>-3.4%</td><td>95.5%</td></tr>\n<tr><td>Coast</td><td>18.6</td><td>+2.2%</td><td>97.0%</td></tr>\n<tr><td>Islands</td><td>7.4</td><td>+0.8%</td><td>93.9%</td></tr>\n<tr><td>Border</td><td>9.9</td><td>+5.5%</td><td>96.6%</td></tr>\n</table>\n</div>\n\n<div data-bbox=\"[494, 961, 506, 973]\" data-label=\"Page-footer\" data-id=\"e7\">2</div>"
+  },
+  {
+   "model": "claude-opus-5-5",
+   "stop_reason": "end_turn",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 2943,
+    "output_tokens": 530,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "speed": "standard"
+   },
+   "text": "<div data-bbox=\"[95, 32, 348, 43]\" data-label=\"Page-header\" data-id=\"e1\">Northwind Logistics - Annual Review 2026</div>\n<div data-bbox=\"[162, 71, 838, 153]\" data-label=\"Table\" data-id=\"e2\">\n<table>\n<tr><th>Region</th><th>Revenue (EUR m)</th><th>Change</th><th>On time</th></tr>\n<tr><td>Metro</td><td>51.2</td><td>+8.9%</td><td>98.1%</td></tr>\n<tr><td>Rural</td><td>6.1</td><td>-0.5%</td><td>94.2%</td></tr>\n<tr><td>Airport</td><td>14.8</td><td>+9.7%</td><td>99.0%</td></tr>\n</table>\n</div>\n<div data-bbox=\"[162, 157, 481, 168]\" data-label=\"Footnote\" data-id=\"e3\" data-footnote-of=\"e2\">* Figures are unaudited and rounded to one decimal.</div>\n<div data-bbox=\"[95, 196, 178, 212]\" data-label=\"Section-header\" data-id=\"e4\">## Outlook</div>\n<div data-bbox=\"[95, 220, 899, 251]\" data-label=\"Text\" data-id=\"e5\">Next year we plan to open a second hub in the south and to move all returns from our eBay shop to the new line. The board expects revenue to grow by about 5 percent.</div>\n<div data-bbox=\"[494, 962, 506, 973]\" data-label=\"Page-footer\" data-id=\"e6\">3</div>"
+  }
+ ]
+}

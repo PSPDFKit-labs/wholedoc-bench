@@ -1,0 +1,19 @@
+{
+  "format_version": "1.0",
+  "corpus": "release-test",
+  "tag": "v1.0",
+  "source_commit": "0000000000000000000000000000000000000000",
+  "corpus_path": "corpus",
+  "manifest_sha256": "7affb3847b986d7af306d9308f53ebcc4b4867dd4b82324d4fff4a1a575321d0",
+  "header_sha256": "ed5e1a90c25927dc149b39c6df24c323796d52f38c3f8730022d54e6725797d3",
+  "documents": 2,
+  "tracks": {
+    "T1": 2
+  },
+  "groundtruth_schema_version": "0.1",
+  "spec_version": "0.9",
+  "exporter": {
+    "name": "parse-eval",
+    "version": "0.1.0"
+  }
+}

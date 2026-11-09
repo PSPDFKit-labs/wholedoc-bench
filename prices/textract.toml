@@ -1,0 +1,7 @@
+[[rate]]
+meter = "pages"
+usd = 15.00
+per = 1000
+effective = 2026-10-01
+checked = 2026-10-22
+source = "https://aws.amazon.com/textract/pricing/"

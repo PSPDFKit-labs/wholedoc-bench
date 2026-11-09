@@ -1,0 +1,42 @@
+[[rate]]
+meter = "credits"
+usd = 1.25
+per = 1000
+effective = 2026-10-22
+checked = 2026-10-22
+source = "https://developers.llamaindex.ai/llamaparse/general/pricing/"
+
+[[rate]]
+when = { tier = "fast" }
+meter = "pages"
+credits = 1
+effective = 2026-10-22
+checked = 2026-10-22
+source = "https://developers.llamaindex.ai/llamaparse/general/pricing/"
+
+[[rate]]
+when = { tier = "cost_effective" }
+meter = "pages"
+credits = 3
+estimate = true
+effective = 2026-10-22
+checked = 2026-10-22
+source = "https://developers.llamaindex.ai/llamaparse/general/pricing/"
+
+[[rate]]
+when = { tier = "agentic" }
+meter = "pages"
+credits = 10
+estimate = true
+effective = 2026-10-22
+checked = 2026-10-22
+source = "https://developers.llamaindex.ai/llamaparse/general/pricing/"
+
+[[rate]]
+when = { tier = "agentic_plus" }
+meter = "pages"
+credits = 45
+estimate = true
+effective = 2026-10-22
+checked = 2026-10-22
+source = "https://developers.llamaindex.ai/llamaparse/general/pricing/"

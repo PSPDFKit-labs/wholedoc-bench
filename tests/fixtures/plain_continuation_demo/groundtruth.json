@@ -1,0 +1,1504 @@
+{
+  "schema_version": "0.1",
+  "document": {
+    "id": "plain_continuation_demo",
+    "sha256": "ab35559da82d0701e35bec81cadbbb2a3a05e3226dabd9f18b6b4a1f33020634",
+    "source": "born-digital",
+    "groundtruth_source": "generator",
+    "language": [
+      "en"
+    ],
+    "pages": [
+      {
+        "index": 0,
+        "label": "1",
+        "width": 595.276,
+        "height": 841.89
+      },
+      {
+        "index": 1,
+        "label": "2",
+        "width": 595.276,
+        "height": 841.89
+      },
+      {
+        "index": 2,
+        "label": "3",
+        "width": 595.276,
+        "height": 841.89
+      }
+    ]
+  },
+  "elements": [
+    {
+      "id": "e1",
+      "class": "heading",
+      "level": 1,
+      "page": 0,
+      "box": [
+        0.0952,
+        0.0673,
+        0.3376,
+        0.018
+      ],
+      "text": "Plain page continuation"
+    },
+    {
+      "id": "e2",
+      "class": "paragraph",
+      "page": 0,
+      "box": [
+        0.0946,
+        0.1015,
+        0.8105,
+        0.0275
+      ],
+      "text": "The table begins on this page. Its rows continue at the top of page 2 without a repeated heading or continuation label. The paragraph below the table crosses the next page boundary in the same way."
+    },
+    {
+      "id": "e3",
+      "class": "caption",
+      "page": 0,
+      "box": [
+        0.4029,
+        0.1476,
+        0.1942,
+        0.0114
+      ],
+      "text": "Table 1: Sample records"
+    },
+    {
+      "id": "e4",
+      "class": "table",
+      "page": 0,
+      "box": [
+        0.1237,
+        0.1973,
+        0.7427,
+        0.7207
+      ],
+      "header": [
+        "ID",
+        "Category",
+        "Observation"
+      ],
+      "rows": [
+        [
+          "01",
+          "Intake",
+          "Request entered the review queue."
+        ],
+        [
+          "02",
+          "Scope",
+          "Page count and layout goals recorded."
+        ],
+        [
+          "03",
+          "Type",
+          "Eleven-point body text selected."
+        ],
+        [
+          "04",
+          "Paper",
+          "A4 page size selected."
+        ],
+        [
+          "05",
+          "Margins",
+          "Twenty-millimetre margins applied."
+        ],
+        [
+          "06",
+          "Footer",
+          "Centred page number added."
+        ],
+        [
+          "07",
+          "Colour",
+          "Dark blue used for table headings."
+        ],
+        [
+          "08",
+          "Rules",
+          "Thin horizontal rules separate sections."
+        ],
+        [
+          "09",
+          "Columns",
+          "Three fixed-width columns defined."
+        ],
+        [
+          "10",
+          "Row 10",
+          "This row supplies predictable table height."
+        ],
+        [
+          "11",
+          "Row 11",
+          "Alternating shading helps track wide rows."
+        ],
+        [
+          "12",
+          "Row 12",
+          "The description remains short and readable."
+        ],
+        [
+          "13",
+          "Row 13",
+          "The table can break only between rows."
+        ],
+        [
+          "14",
+          "Row 14",
+          "The first-page heading appears above the data."
+        ],
+        [
+          "15",
+          "Row 15",
+          "Later pages receive no table heading."
+        ],
+        [
+          "16",
+          "Row 16",
+          "Column widths remain fixed after the break."
+        ],
+        [
+          "17",
+          "Row 17",
+          "Page margins stay constant throughout."
+        ],
+        [
+          "18",
+          "Row 18",
+          "The footer remains outside the table."
+        ],
+        [
+          "19",
+          "Row 19",
+          "Each record has a stable identifier."
+        ],
+        [
+          "20",
+          "Row 20",
+          "Shading continues across the page boundary."
+        ],
+        [
+          "21",
+          "Row 21",
+          "The layout uses the longtable package."
+        ],
+        [
+          "22",
+          "Row 22",
+          "LaTeX calculates the page break during layout."
+        ],
+        [
+          "23",
+          "Row 23",
+          "The caption belongs to the full table."
+        ],
+        [
+          "24",
+          "Row 24",
+          "The continuation has no label above it."
+        ],
+        [
+          "25",
+          "Row 25",
+          "The table keeps its alignment on page 2."
+        ],
+        [
+          "26",
+          "Row 26",
+          "Values stay within their assigned columns."
+        ],
+        [
+          "27",
+          "Row 27",
+          "The second page has room for prose below."
+        ],
+        [
+          "28",
+          "Row 28",
+          "The remaining rows close the example."
+        ],
+        [
+          "29",
+          "Row 29",
+          "Short entries make the break easy to inspect."
+        ],
+        [
+          "30",
+          "Row 30",
+          "The visual pattern stays consistent."
+        ],
+        [
+          "31",
+          "Row 31",
+          "This record approaches the page limit."
+        ],
+        [
+          "32",
+          "Row 32",
+          "The next records move to page 2."
+        ],
+        [
+          "33",
+          "Row 33",
+          "No column labels repeat after the break."
+        ],
+        [
+          "34",
+          "Row 34",
+          "The data begins at the page text margin."
+        ],
+        [
+          "35",
+          "Row 35",
+          "The continuation looks like one uninterrupted table."
+        ],
+        [
+          "36",
+          "Row 36",
+          "The final records remain aligned."
+        ],
+        [
+          "37",
+          "Row 37",
+          "This row continues without a heading above it."
+        ]
+      ],
+      "cells": [
+        {
+          "text": "ID",
+          "box": [
+            0.1137,
+            0.1757,
+            0.101,
+            0.0389
+          ]
+        },
+        {
+          "text": "Category",
+          "box": [
+            0.2147,
+            0.1757,
+            0.2225,
+            0.0389
+          ]
+        },
+        {
+          "text": "Observation",
+          "box": [
+            0.4372,
+            0.1757,
+            0.4491,
+            0.0389
+          ]
+        },
+        {
+          "text": "01",
+          "box": [
+            0.1137,
+            0.2146,
+            0.101,
+            0.023
+          ]
+        },
+        {
+          "text": "Intake",
+          "box": [
+            0.2147,
+            0.2146,
+            0.2225,
+            0.023
+          ]
+        },
+        {
+          "text": "Request entered the review queue.",
+          "box": [
+            0.4372,
+            0.2146,
+            0.4491,
+            0.023
+          ]
+        },
+        {
+          "text": "02",
+          "box": [
+            0.1137,
+            0.2376,
+            0.101,
+            0.019
+          ]
+        },
+        {
+          "text": "Scope",
+          "box": [
+            0.2147,
+            0.2376,
+            0.2225,
+            0.019
+          ]
+        },
+        {
+          "text": "Page count and layout goals recorded.",
+          "box": [
+            0.4372,
+            0.2376,
+            0.4491,
+            0.019
+          ]
+        },
+        {
+          "text": "03",
+          "box": [
+            0.1137,
+            0.2566,
+            0.101,
+            0.019
+          ]
+        },
+        {
+          "text": "Type",
+          "box": [
+            0.2147,
+            0.2566,
+            0.2225,
+            0.019
+          ]
+        },
+        {
+          "text": "Eleven-point body text selected.",
+          "box": [
+            0.4372,
+            0.2566,
+            0.4491,
+            0.019
+          ]
+        },
+        {
+          "text": "04",
+          "box": [
+            0.1137,
+            0.2756,
+            0.101,
+            0.019
+          ]
+        },
+        {
+          "text": "Paper",
+          "box": [
+            0.2147,
+            0.2756,
+            0.2225,
+            0.019
+          ]
+        },
+        {
+          "text": "A4 page size selected.",
+          "box": [
+            0.4372,
+            0.2756,
+            0.4491,
+            0.019
+          ]
+        },
+        {
+          "text": "05",
+          "box": [
+            0.1137,
+            0.2946,
+            0.101,
+            0.0189
+          ]
+        },
+        {
+          "text": "Margins",
+          "box": [
+            0.2147,
+            0.2946,
+            0.2225,
+            0.0189
+          ]
+        },
+        {
+          "text": "Twenty-millimetre margins applied.",
+          "box": [
+            0.4372,
+            0.2946,
+            0.4491,
+            0.0189
+          ]
+        },
+        {
+          "text": "06",
+          "box": [
+            0.1137,
+            0.3135,
+            0.101,
+            0.019
+          ]
+        },
+        {
+          "text": "Footer",
+          "box": [
+            0.2147,
+            0.3135,
+            0.2225,
+            0.019
+          ]
+        },
+        {
+          "text": "Centred page number added.",
+          "box": [
+            0.4372,
+            0.3135,
+            0.4491,
+            0.019
+          ]
+        },
+        {
+          "text": "07",
+          "box": [
+            0.1137,
+            0.3325,
+            0.101,
+            0.019
+          ]
+        },
+        {
+          "text": "Colour",
+          "box": [
+            0.2147,
+            0.3325,
+            0.2225,
+            0.019
+          ]
+        },
+        {
+          "text": "Dark blue used for table headings.",
+          "box": [
+            0.4372,
+            0.3325,
+            0.4491,
+            0.019
+          ]
+        },
+        {
+          "text": "08",
+          "box": [
+            0.1137,
+            0.3515,
+            0.101,
+            0.019
+          ]
+        },
+        {
+          "text": "Rules",
+          "box": [
+            0.2147,
+            0.3515,
+            0.2225,
+            0.019
+          ]
+        },
+        {
+          "text": "Thin horizontal rules separate sections.",
+          "box": [
+            0.4372,
+            0.3515,
+            0.4491,
+            0.019
+          ]
+        },
+        {
+          "text": "09",
+          "box": [
+            0.1137,
+            0.3705,
+            0.101,
+            0.019
+          ]
+        },
+        {
+          "text": "Columns",
+          "box": [
+            0.2147,
+            0.3705,
+            0.2225,
+            0.019
+          ]
+        },
+        {
+          "text": "Three fixed-width columns defined.",
+          "box": [
+            0.4372,
+            0.3705,
+            0.4491,
+            0.019
+          ]
+        },
+        {
+          "text": "10",
+          "box": [
+            0.1137,
+            0.3895,
+            0.101,
+            0.019
+          ]
+        },
+        {
+          "text": "Row 10",
+          "box": [
+            0.2147,
+            0.3895,
+            0.2225,
+            0.019
+          ]
+        },
+        {
+          "text": "This row supplies predictable table height.",
+          "box": [
+            0.4372,
+            0.3895,
+            0.4491,
+            0.019
+          ]
+        },
+        {
+          "text": "11",
+          "box": [
+            0.1137,
+            0.4085,
+            0.101,
+            0.019
+          ]
+        },
+        {
+          "text": "Row 11",
+          "box": [
+            0.2147,
+            0.4085,
+            0.2225,
+            0.019
+          ]
+        },
+        {
+          "text": "Alternating shading helps track wide rows.",
+          "box": [
+            0.4372,
+            0.4085,
+            0.4491,
+            0.019
+          ]
+        },
+        {
+          "text": "12",
+          "box": [
+            0.1137,
+            0.4275,
+            0.101,
+            0.019
+          ]
+        },
+        {
+          "text": "Row 12",
+          "box": [
+            0.2147,
+            0.4275,
+            0.2225,
+            0.019
+          ]
+        },
+        {
+          "text": "The description remains short and readable.",
+          "box": [
+            0.4372,
+            0.4275,
+            0.4491,
+            0.019
+          ]
+        },
+        {
+          "text": "13",
+          "box": [
+            0.1137,
+            0.4465,
+            0.101,
+            0.019
+          ]
+        },
+        {
+          "text": "Row 13",
+          "box": [
+            0.2147,
+            0.4465,
+            0.2225,
+            0.019
+          ]
+        },
+        {
+          "text": "The table can break only between rows.",
+          "box": [
+            0.4372,
+            0.4465,
+            0.4491,
+            0.019
+          ]
+        },
+        {
+          "text": "14",
+          "box": [
+            0.1137,
+            0.4655,
+            0.101,
+            0.019
+          ]
+        },
+        {
+          "text": "Row 14",
+          "box": [
+            0.2147,
+            0.4655,
+            0.2225,
+            0.019
+          ]
+        },
+        {
+          "text": "The first-page heading appears above the data.",
+          "box": [
+            0.4372,
+            0.4655,
+            0.4491,
+            0.019
+          ]
+        },
+        {
+          "text": "15",
+          "box": [
+            0.1137,
+            0.4845,
+            0.101,
+            0.019
+          ]
+        },
+        {
+          "text": "Row 15",
+          "box": [
+            0.2147,
+            0.4845,
+            0.2225,
+            0.019
+          ]
+        },
+        {
+          "text": "Later pages receive no table heading.",
+          "box": [
+            0.4372,
+            0.4845,
+            0.4491,
+            0.019
+          ]
+        },
+        {
+          "text": "16",
+          "box": [
+            0.1137,
+            0.5035,
+            0.101,
+            0.0189
+          ]
+        },
+        {
+          "text": "Row 16",
+          "box": [
+            0.2147,
+            0.5035,
+            0.2225,
+            0.0189
+          ]
+        },
+        {
+          "text": "Column widths remain fixed after the break.",
+          "box": [
+            0.4372,
+            0.5035,
+            0.4491,
+            0.0189
+          ]
+        },
+        {
+          "text": "17",
+          "box": [
+            0.1137,
+            0.5224,
+            0.101,
+            0.019
+          ]
+        },
+        {
+          "text": "Row 17",
+          "box": [
+            0.2147,
+            0.5224,
+            0.2225,
+            0.019
+          ]
+        },
+        {
+          "text": "Page margins stay constant throughout.",
+          "box": [
+            0.4372,
+            0.5224,
+            0.4491,
+            0.019
+          ]
+        },
+        {
+          "text": "18",
+          "box": [
+            0.1137,
+            0.5414,
+            0.101,
+            0.019
+          ]
+        },
+        {
+          "text": "Row 18",
+          "box": [
+            0.2147,
+            0.5414,
+            0.2225,
+            0.019
+          ]
+        },
+        {
+          "text": "The footer remains outside the table.",
+          "box": [
+            0.4372,
+            0.5414,
+            0.4491,
+            0.019
+          ]
+        },
+        {
+          "text": "19",
+          "box": [
+            0.1137,
+            0.5604,
+            0.101,
+            0.019
+          ]
+        },
+        {
+          "text": "Row 19",
+          "box": [
+            0.2147,
+            0.5604,
+            0.2225,
+            0.019
+          ]
+        },
+        {
+          "text": "Each record has a stable identifier.",
+          "box": [
+            0.4372,
+            0.5604,
+            0.4491,
+            0.019
+          ]
+        },
+        {
+          "text": "20",
+          "box": [
+            0.1137,
+            0.5794,
+            0.101,
+            0.019
+          ]
+        },
+        {
+          "text": "Row 20",
+          "box": [
+            0.2147,
+            0.5794,
+            0.2225,
+            0.019
+          ]
+        },
+        {
+          "text": "Shading continues across the page boundary.",
+          "box": [
+            0.4372,
+            0.5794,
+            0.4491,
+            0.019
+          ]
+        },
+        {
+          "text": "21",
+          "box": [
+            0.1137,
+            0.5984,
+            0.101,
+            0.019
+          ]
+        },
+        {
+          "text": "Row 21",
+          "box": [
+            0.2147,
+            0.5984,
+            0.2225,
+            0.019
+          ]
+        },
+        {
+          "text": "The layout uses the longtable package.",
+          "box": [
+            0.4372,
+            0.5984,
+            0.4491,
+            0.019
+          ]
+        },
+        {
+          "text": "22",
+          "box": [
+            0.1137,
+            0.6174,
+            0.101,
+            0.019
+          ]
+        },
+        {
+          "text": "Row 22",
+          "box": [
+            0.2147,
+            0.6174,
+            0.2225,
+            0.019
+          ]
+        },
+        {
+          "text": "LaTeX calculates the page break during layout.",
+          "box": [
+            0.4372,
+            0.6174,
+            0.4491,
+            0.019
+          ]
+        },
+        {
+          "text": "23",
+          "box": [
+            0.1137,
+            0.6364,
+            0.101,
+            0.019
+          ]
+        },
+        {
+          "text": "Row 23",
+          "box": [
+            0.2147,
+            0.6364,
+            0.2225,
+            0.019
+          ]
+        },
+        {
+          "text": "The caption belongs to the full table.",
+          "box": [
+            0.4372,
+            0.6364,
+            0.4491,
+            0.019
+          ]
+        },
+        {
+          "text": "24",
+          "box": [
+            0.1137,
+            0.6554,
+            0.101,
+            0.019
+          ]
+        },
+        {
+          "text": "Row 24",
+          "box": [
+            0.2147,
+            0.6554,
+            0.2225,
+            0.019
+          ]
+        },
+        {
+          "text": "The continuation has no label above it.",
+          "box": [
+            0.4372,
+            0.6554,
+            0.4491,
+            0.019
+          ]
+        },
+        {
+          "text": "25",
+          "box": [
+            0.1137,
+            0.6744,
+            0.101,
+            0.019
+          ]
+        },
+        {
+          "text": "Row 25",
+          "box": [
+            0.2147,
+            0.6744,
+            0.2225,
+            0.019
+          ]
+        },
+        {
+          "text": "The table keeps its alignment on page 2.",
+          "box": [
+            0.4372,
+            0.6744,
+            0.4491,
+            0.019
+          ]
+        },
+        {
+          "text": "26",
+          "box": [
+            0.1137,
+            0.6934,
+            0.101,
+            0.0189
+          ]
+        },
+        {
+          "text": "Row 26",
+          "box": [
+            0.2147,
+            0.6934,
+            0.2225,
+            0.0189
+          ]
+        },
+        {
+          "text": "Values stay within their assigned columns.",
+          "box": [
+            0.4372,
+            0.6934,
+            0.4491,
+            0.0189
+          ]
+        },
+        {
+          "text": "27",
+          "box": [
+            0.1137,
+            0.7123,
+            0.101,
+            0.019
+          ]
+        },
+        {
+          "text": "Row 27",
+          "box": [
+            0.2147,
+            0.7123,
+            0.2225,
+            0.019
+          ]
+        },
+        {
+          "text": "The second page has room for prose below.",
+          "box": [
+            0.4372,
+            0.7123,
+            0.4491,
+            0.019
+          ]
+        },
+        {
+          "text": "28",
+          "box": [
+            0.1137,
+            0.7313,
+            0.101,
+            0.019
+          ]
+        },
+        {
+          "text": "Row 28",
+          "box": [
+            0.2147,
+            0.7313,
+            0.2225,
+            0.019
+          ]
+        },
+        {
+          "text": "The remaining rows close the example.",
+          "box": [
+            0.4372,
+            0.7313,
+            0.4491,
+            0.019
+          ]
+        },
+        {
+          "text": "29",
+          "box": [
+            0.1137,
+            0.7503,
+            0.101,
+            0.019
+          ]
+        },
+        {
+          "text": "Row 29",
+          "box": [
+            0.2147,
+            0.7503,
+            0.2225,
+            0.019
+          ]
+        },
+        {
+          "text": "Short entries make the break easy to inspect.",
+          "box": [
+            0.4372,
+            0.7503,
+            0.4491,
+            0.019
+          ]
+        },
+        {
+          "text": "30",
+          "box": [
+            0.1137,
+            0.7693,
+            0.101,
+            0.019
+          ]
+        },
+        {
+          "text": "Row 30",
+          "box": [
+            0.2147,
+            0.7693,
+            0.2225,
+            0.019
+          ]
+        },
+        {
+          "text": "The visual pattern stays consistent.",
+          "box": [
+            0.4372,
+            0.7693,
+            0.4491,
+            0.019
+          ]
+        },
+        {
+          "text": "31",
+          "box": [
+            0.1137,
+            0.7883,
+            0.101,
+            0.019
+          ]
+        },
+        {
+          "text": "Row 31",
+          "box": [
+            0.2147,
+            0.7883,
+            0.2225,
+            0.019
+          ]
+        },
+        {
+          "text": "This record approaches the page limit.",
+          "box": [
+            0.4372,
+            0.7883,
+            0.4491,
+            0.019
+          ]
+        },
+        {
+          "text": "32",
+          "box": [
+            0.1137,
+            0.8073,
+            0.101,
+            0.019
+          ]
+        },
+        {
+          "text": "Row 32",
+          "box": [
+            0.2147,
+            0.8073,
+            0.2225,
+            0.019
+          ]
+        },
+        {
+          "text": "The next records move to page 2.",
+          "box": [
+            0.4372,
+            0.8073,
+            0.4491,
+            0.019
+          ]
+        },
+        {
+          "text": "33",
+          "box": [
+            0.1137,
+            0.8263,
+            0.101,
+            0.019
+          ]
+        },
+        {
+          "text": "Row 33",
+          "box": [
+            0.2147,
+            0.8263,
+            0.2225,
+            0.019
+          ]
+        },
+        {
+          "text": "No column labels repeat after the break.",
+          "box": [
+            0.4372,
+            0.8263,
+            0.4491,
+            0.019
+          ]
+        },
+        {
+          "text": "34",
+          "box": [
+            0.1137,
+            0.8453,
+            0.101,
+            0.019
+          ]
+        },
+        {
+          "text": "Row 34",
+          "box": [
+            0.2147,
+            0.8453,
+            0.2225,
+            0.019
+          ]
+        },
+        {
+          "text": "The data begins at the page text margin.",
+          "box": [
+            0.4372,
+            0.8453,
+            0.4491,
+            0.019
+          ]
+        },
+        {
+          "text": "35",
+          "box": [
+            0.1137,
+            0.8643,
+            0.101,
+            0.019
+          ]
+        },
+        {
+          "text": "Row 35",
+          "box": [
+            0.2147,
+            0.8643,
+            0.2225,
+            0.019
+          ]
+        },
+        {
+          "text": "The continuation looks like one uninterrupted table.",
+          "box": [
+            0.4372,
+            0.8643,
+            0.4491,
+            0.019
+          ]
+        },
+        {
+          "text": "36",
+          "box": [
+            0.1137,
+            0.8833,
+            0.101,
+            0.019
+          ]
+        },
+        {
+          "text": "Row 36",
+          "box": [
+            0.2147,
+            0.8833,
+            0.2225,
+            0.019
+          ]
+        },
+        {
+          "text": "The final records remain aligned.",
+          "box": [
+            0.4372,
+            0.8833,
+            0.4491,
+            0.019
+          ]
+        },
+        {
+          "text": "37",
+          "box": [
+            0.1137,
+            0.9023,
+            0.101,
+            0.0189
+          ]
+        },
+        {
+          "text": "Row 37",
+          "box": [
+            0.2147,
+            0.9023,
+            0.2225,
+            0.0189
+          ]
+        },
+        {
+          "text": "This row continues without a heading above it.",
+          "box": [
+            0.4372,
+            0.9023,
+            0.4491,
+            0.0189
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e5",
+      "class": "footer",
+      "channel": "furniture",
+      "page": 0,
+      "box": [
+        0.4954,
+        0.9592,
+        0.0092,
+        0.0114
+      ],
+      "text": "1"
+    },
+    {
+      "id": "e6",
+      "class": "table",
+      "page": 1,
+      "box": [
+        0.1237,
+        0.0847,
+        0.6715,
+        0.0494
+      ],
+      "rows": [
+        [
+          "38",
+          "Row 38",
+          "The alternating fill remains in sequence."
+        ],
+        [
+          "39",
+          "Row 39",
+          "The last two rows complete the table body."
+        ],
+        [
+          "40",
+          "Row 40",
+          "The closing rule ends the table on page 2."
+        ]
+      ],
+      "cells": [
+        {
+          "text": "38",
+          "box": [
+            0.1137,
+            0.0804,
+            0.101,
+            0.0189
+          ]
+        },
+        {
+          "text": "Row 38",
+          "box": [
+            0.2147,
+            0.0804,
+            0.2225,
+            0.0189
+          ]
+        },
+        {
+          "text": "The alternating fill remains in sequence.",
+          "box": [
+            0.4372,
+            0.0804,
+            0.4491,
+            0.0189
+          ]
+        },
+        {
+          "text": "39",
+          "box": [
+            0.1137,
+            0.0993,
+            0.101,
+            0.019
+          ]
+        },
+        {
+          "text": "Row 39",
+          "box": [
+            0.2147,
+            0.0993,
+            0.2225,
+            0.019
+          ]
+        },
+        {
+          "text": "The last two rows complete the table body.",
+          "box": [
+            0.4372,
+            0.0993,
+            0.4491,
+            0.019
+          ]
+        },
+        {
+          "text": "40",
+          "box": [
+            0.1137,
+            0.1183,
+            0.101,
+            0.0218
+          ]
+        },
+        {
+          "text": "Row 40",
+          "box": [
+            0.2147,
+            0.1183,
+            0.2225,
+            0.0218
+          ]
+        },
+        {
+          "text": "The closing rule ends the table on page 2.",
+          "box": [
+            0.4372,
+            0.1183,
+            0.4491,
+            0.0218
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e7",
+      "class": "paragraph",
+      "page": 1,
+      "box": [
+        0.0946,
+        0.1702,
+        0.8131,
+        0.1241
+      ],
+      "text": "This paragraph begins directly after the table on page 2. There is no section heading above it. Normal LaTeX paragraphs flow according to the available space, font metrics, and hyphenation rules. This test uses stretchable vertical space to put its marked line near the bottom margin. A forced line break and page-break penalty then divide the chosen word at the physical page boundary. The source keeps the text in one paragraph while the page builder sends the remaining fragment to page 3. This arrangement makes the continuation easy to inspect. Automatic hyphenation usually handles normal documents, where later edits can change line lengths and page positions. Here the fixed placement creates a stable test. The paragraph now reaches its boundary with a deliberately comp-"
+    },
+    {
+      "id": "e8",
+      "class": "footer",
+      "channel": "furniture",
+      "page": 1,
+      "box": [
+        0.4954,
+        0.9592,
+        0.0092,
+        0.0114
+      ],
+      "text": "2"
+    },
+    {
+      "id": "e9",
+      "class": "paragraph",
+      "page": 2,
+      "box": [
+        0.0952,
+        0.0714,
+        0.8129,
+        0.0436
+      ],
+      "text": "lex example. Page 3 begins with this fragment. Nothing appears above it. The paragraph keeps the same font, line spacing, and margins after the page break. A few more sentences make the continuation clear. The text ends after this short closing passage."
+    },
+    {
+      "id": "e10",
+      "class": "footer",
+      "channel": "furniture",
+      "page": 2,
+      "box": [
+        0.4954,
+        0.9592,
+        0.0092,
+        0.0114
+      ],
+      "text": "3"
+    }
+  ],
+  "relations": [
+    {
+      "kind": "caption_of",
+      "from": "e3",
+      "to": "e4"
+    },
+    {
+      "kind": "continues_in",
+      "from": "e4",
+      "to": "e6"
+    },
+    {
+      "kind": "continues_in",
+      "from": "e7",
+      "to": "e9",
+      "hyphenated": true
+    }
+  ],
+  "reading_order": [
+    "e1",
+    "e2",
+    "e3",
+    "e4",
+    "e6",
+    "e7",
+    "e9"
+  ],
+  "planted": []
+}

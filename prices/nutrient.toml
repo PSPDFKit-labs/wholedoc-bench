@@ -1,0 +1,30 @@
+[[rate]]
+meter = "credits"
+usd = 0.001
+effective = 2026-10-21
+checked = 2026-10-22
+source = "https://www.nutrient.io/api/pricing/data-extraction-api/"
+
+[[rate]]
+when = { mode = "structure" }
+meter = "pages"
+credits = 1.5
+effective = 2026-10-21
+checked = 2026-10-22
+source = "https://www.nutrient.io/guides/dws-data-extraction/pricing/"
+
+[[rate]]
+when = { mode = "understand" }
+meter = "pages"
+credits = 9
+effective = 2026-10-21
+checked = 2026-10-22
+source = "https://www.nutrient.io/guides/dws-data-extraction/pricing/"
+
+[[rate]]
+when = { mode = "agentic" }
+meter = "pages"
+credits = 18
+effective = 2026-10-21
+checked = 2026-10-22
+source = "https://www.nutrient.io/guides/dws-data-extraction/pricing/"

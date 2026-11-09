@@ -1,0 +1,330 @@
+{
+ "document": {
+  "elements": [
+   {
+    "bbox": [
+     {
+      "coord": [
+       152,
+       70,
+       571,
+       101
+      ],
+      "page_id": 0
+     }
+    ],
+    "content": "Harbour Energy - Market Update Q3 2026",
+    "confidence": 1.0,
+    "description": null,
+    "id": 0,
+    "type": "page_header"
+   },
+   {
+    "bbox": [
+     {
+      "coord": [
+       154,
+       175,
+       706,
+       229
+      ],
+      "page_id": 0
+     }
+    ],
+    "content": "Market Update Q3 2026",
+    "confidence": 1.0,
+    "description": null,
+    "id": 1,
+    "type": "section_header"
+   },
+   {
+    "bbox": [
+     {
+      "coord": [
+       152,
+       257,
+       1500,
+       330
+      ],
+      "page_id": 0
+     }
+    ],
+    "content": "Demand held up in the third quarter. The chart and the table below show revenue for each region in 2025 and\n2026, and the second page shows how energy costs moved.",
+    "confidence": 1.0,
+    "description": null,
+    "id": 2,
+    "type": "text"
+   },
+   {
+    "bbox": [
+     {
+      "coord": [
+       154,
+       381,
+       308,
+       414
+      ],
+      "page_id": 0
+     }
+    ],
+    "content": "Revenue",
+    "confidence": 1.0,
+    "description": null,
+    "id": 3,
+    "type": "section_header"
+   },
+   {
+    "bbox": [
+     {
+      "coord": [
+       625,
+       470,
+       1029,
+       505
+      ],
+      "page_id": 0
+     }
+    ],
+    "content": "Revenue by region (EUR m)",
+    "confidence": 1.0,
+    "description": null,
+    "id": 4,
+    "type": "section_header"
+   },
+   {
+    "bbox": [
+     {
+      "coord": [
+       351,
+       545,
+       1318,
+       1060
+      ],
+      "page_id": 0
+     }
+    ],
+    "content": "{\n  \"title\": \"None\",\n  \"values\": {\n    \"2025\": {\n      \"North\": 38.5,\n      \"South\": 29.0,\n      \"East\": 24.1,\n      \"West\": 36.2\n    },\n    \"2026\": {\n      \"North\": 42.1,\n      \"South\": 31.0,\n      \"East\": 28.4,\n      \"West\": 35.7\n    }\n  },\n  \"additional_info\": \"light: 2025 dark: 2026\"\n}",
+    "confidence": 0.9448,
+    "description": "Grouped bar chart comparing values for North, South, East, and West regions in 2025 and 2026.",
+    "id": 5,
+    "type": "figure"
+   },
+   {
+    "bbox": [
+     {
+      "coord": [
+       268,
+       1099,
+       774,
+       1130
+      ],
+      "page_id": 0
+     }
+    ],
+    "content": "Figure 1: Revenue by region, 2025 and 2026.",
+    "confidence": 1.0,
+    "description": null,
+    "id": 6,
+    "type": "caption"
+   },
+   {
+    "bbox": [
+     {
+      "coord": [
+       268,
+       1172,
+       683,
+       1200
+      ],
+      "page_id": 0
+     }
+    ],
+    "content": "Table 1: Revenue by region (EUR m)",
+    "confidence": 1.0,
+    "description": null,
+    "id": 7,
+    "type": "section_header"
+   },
+   {
+    "bbox": [
+     {
+      "coord": [
+       268,
+       1212,
+       1383,
+       1448
+      ],
+      "page_id": 0
+     }
+    ],
+    "content": "<table><tr><th>Region</th><th>2025</th><th>2026</th></tr><tr><td>North</td><td>38.5</td><td>42.1</td></tr><tr><td>South</td><td>29.0</td><td>31.0</td></tr><tr><td>East</td><td>24.1</td><td>28.4</td></tr><tr><td>West</td><td>36.2</td><td>35.7</td></tr></table>",
+    "confidence": 0.9903,
+    "description": null,
+    "id": 8,
+    "type": "table"
+   },
+   {
+    "bbox": [
+     {
+      "coord": [
+       819,
+       2234,
+       834,
+       2259
+      ],
+      "page_id": 0
+     }
+    ],
+    "content": "1",
+    "confidence": 1.0,
+    "description": null,
+    "id": 9,
+    "type": "page_number"
+   },
+   {
+    "bbox": [
+     {
+      "coord": [
+       152,
+       70,
+       572,
+       101
+      ],
+      "page_id": 1
+     }
+    ],
+    "content": "Harbour Energy - Market Update Q3 2026",
+    "confidence": 1.0,
+    "description": null,
+    "id": 10,
+    "type": "page_header"
+   },
+   {
+    "bbox": [
+     {
+      "coord": [
+       152,
+       171,
+       382,
+       213
+      ],
+      "page_id": 1
+     }
+    ],
+    "content": "Energy costs",
+    "confidence": 1.0,
+    "description": null,
+    "id": 11,
+    "type": "section_header"
+   },
+   {
+    "bbox": [
+     {
+      "coord": [
+       152,
+       229,
+       1479,
+       299
+      ],
+      "page_id": 1
+     }
+    ],
+    "content": "Energy costs rose in the summer and eased in September. The line chart shows the monthly cost per tonne\nmoved.",
+    "confidence": 1.0,
+    "description": null,
+    "id": 12,
+    "type": "text"
+   },
+   {
+    "bbox": [
+     {
+      "coord": [
+       301,
+       363,
+       1353,
+       973
+      ],
+      "page_id": 1
+     }
+    ],
+    "content": "{\n  \"title\": \"Energy cost per tonne (EUR)\",\n  \"values\": {\n    \"Energy\": {\n      \"Apr\": 11.2,\n      \"May\": 12.0,\n      \"Jun\": 13.8,\n      \"Jul\": 15.1,\n      \"Aug\": 14.6,\n      \"Sep\": 12.9\n    }\n  },\n  \"additional_info\": \"None\"\n}",
+    "confidence": 0.921,
+    "description": "Line chart displaying energy cost per tonne in EUR from April to September with labeled data points.",
+    "id": 13,
+    "type": "figure"
+   },
+   {
+    "bbox": [
+     {
+      "coord": [
+       268,
+       1015,
+       802,
+       1048
+      ],
+      "page_id": 1
+     }
+    ],
+    "content": "Figure 2: Monthly energy cost per tonne moved.",
+    "confidence": 1.0,
+    "description": null,
+    "id": 14,
+    "type": "caption"
+   },
+   {
+    "bbox": [
+     {
+      "coord": [
+       152,
+       1095,
+       1095,
+       1127
+      ],
+      "page_id": 1
+     }
+    ],
+    "content": "We expect costs to stay close to the September level for the rest of the year.",
+    "confidence": 1.0,
+    "description": null,
+    "id": 15,
+    "type": "text"
+   },
+   {
+    "bbox": [
+     {
+      "coord": [
+       817,
+       2234,
+       835,
+       2259
+      ],
+      "page_id": 1
+     }
+    ],
+    "content": "2",
+    "confidence": 1.0,
+    "description": null,
+    "id": 16,
+    "type": "page_number"
+   }
+  ],
+  "pages": [
+   {
+    "id": 0,
+    "image_width": 1654,
+    "image_height": 2339
+   },
+   {
+    "id": 1,
+    "image_width": 1654,
+    "image_height": 2339
+   }
+  ]
+ },
+ "error_status": null,
+ "metadata": {
+  "id": "a292d0cc-0a91-4996-8831-6b2d994078ef",
+  "version": "2.0",
+  "file_metadata": null
+ }
+}

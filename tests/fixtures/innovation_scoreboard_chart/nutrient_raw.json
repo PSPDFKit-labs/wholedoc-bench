@@ -1,0 +1,75 @@
+{
+  "configuration": {"apiVersion": "2026-05-25", "mode": "agentic", "outputFormat": "both"},
+  "output": {
+    "elements": [
+      {
+        "bounds": {"height": 20.177864, "width": 30, "x": 102, "y": 111.822136},
+        "id": "bc415c9e-94b0-41a7-80f0-c22296ed99c5",
+        "page": {"height": 1969, "pageIndex": 0, "pageNumber": 1, "width": 1386},
+        "readingOrder": 0,
+        "role": "Header",
+        "text": "84",
+        "type": "paragraph"
+      },
+      {
+        "bounds": {"height": 23.132233, "width": 352, "x": 180, "y": 113},
+        "id": "b1b872b8-31d3-491f-bf48-82147547e93e",
+        "page": {"height": 1969, "pageIndex": 0, "pageNumber": 1, "width": 1386},
+        "readingOrder": 1,
+        "role": "Header",
+        "text": "European Innovation Scoreboard 2025",
+        "type": "paragraph"
+      },
+      {
+        "bounds": {"height": 27.045532, "width": 812.52765, "x": 286.47235, "y": 366},
+        "id": "062c0eff-aa1b-41b6-9ec8-c63184879e7f",
+        "page": {"height": 1969, "pageIndex": 0, "pageNumber": 1, "width": 1386},
+        "readingOrder": 2,
+        "role": "Caption",
+        "text": "Figure 33: Innovation performance of the EU and its global competitors",
+        "type": "paragraph"
+      },
+      {
+        "bounds": {"height": 832.1823, "width": 1021.4245, "x": 183.86359, "y": 422.10712},
+        "captionIds": ["062c0eff-aa1b-41b6-9ec8-c63184879e7f"],
+        "classification": "other",
+        "classificationConfidence": 0.067764185,
+        "htmlTable": "<table><caption>Figure 33: Innovation performance of the EU and its global competitors</caption><tr><th></th><th>2025</th><th>Score in 2024</th></tr><tr><th>South Korea</th><td>152</td><td>146</td></tr><tr><th>Canada</th><td>134</td><td>134</td></tr><tr><th>China</th><td>134</td><td>128</td></tr><tr><th>United States</th><td>128</td><td>126</td></tr><tr><th>Australia</th><td>125</td><td>121</td></tr><tr><th>EU</th><td>113</td><td>113</td></tr><tr><th>Japan</th><td>113</td><td>111</td></tr><tr><th>Brazil</th><td>60</td><td>59</td></tr><tr><th>India</th><td>54</td><td>53</td></tr><tr><th>Chile</th><td>44</td><td>41</td></tr><tr><th>South Africa</th><td>33</td><td>35</td></tr><tr><th>Mexico</th><td>31</td><td>31</td></tr></table>",
+        "id": "5dcb8919-7b70-4b17-842d-b5c500cbaeca",
+        "page": {"height": 1969, "pageIndex": 0, "pageNumber": 1, "width": 1386},
+        "readingOrder": 3,
+        "summary": "Horizontal bar chart comparing the summary innovation index in 2025 for countries and regions, with color-coded innovator categories and markers showing scores in 2024.",
+        "type": "chart"
+      },
+      {
+        "bounds": {"height": 91, "width": 1011.98315, "x": 179.86685, "y": 1269},
+        "id": "4cc7eece-f2c7-4d28-a822-de860f0cd596",
+        "page": {"height": 1969, "pageIndex": 0, "pageNumber": 1, "width": 1386},
+        "readingOrder": 4,
+        "role": "Text",
+        "text": "Note: All performance scores are relative to that of the EU in 2018. Coloured bars show countries’ performance\nin 2025 while the vertical bars show performance in 2024. Due to limited data availability for global\ncompetitors, scores are calculated using a smaller set of indicators.",
+        "type": "paragraph"
+      },
+      {
+        "bounds": {"height": 127.07263, "width": 1025.5311, "x": 179.96693, "y": 1432.9274},
+        "id": "9d9d043d-0ec6-431f-83e5-66056a86fa22",
+        "page": {"height": 1969, "pageIndex": 0, "pageNumber": 1, "width": 1386},
+        "readingOrder": 5,
+        "role": "Text",
+        "text": "Compared to 2024, most global competitors have improved their innovation performance.\nOnly Canada, the EU, and South Africa recorded a decline. South Korea shows the largest\nannual improvement (+6.3%-points), followed by China (+6.0%-points) and Australia\n(+3.8%-points). The gap between Australia and the United States is also narrowing.",
+        "type": "paragraph"
+      },
+      {
+        "bounds": {"height": 161, "width": 1025.358, "x": 179.8146, "y": 1599},
+        "id": "1449bbd7-77d3-4ddf-b9b7-e0f565cc41b4",
+        "page": {"height": 1969, "pageIndex": 0, "pageNumber": 1, "width": 1386},
+        "readingOrder": 6,
+        "role": "Text",
+        "text": "Over the longer term (Figure 34), all global competitors have improved their innovation\nperformance between 2018 and 2025. Notably, the five countries that now outperform the\nEU have all recorded faster growth than the EU itself, thereby widening the performance\ngap. Among the six countries still lagging the EU, only Chile has increased its performance\nat a higher rate than the EU since 2018, with a gain of 15.5%-points.",
+        "type": "paragraph"
+      }
+    ],
+    "markdown": "*Figure 33: Innovation performance of the EU and its global competitors*\n\n\nHorizontal bar chart comparing the summary innovation index in 2025 for countries and regions, with color-coded innovator categories and markers showing scores in 2024.\n\n<table><caption>Figure 33: Innovation performance of the EU and its global competitors</caption><tr><th /><th>2025</th><th>Score in 2024</th></tr><tr><th>South Korea</th><td>152</td><td>146</td></tr><tr><th>Canada</th><td>134</td><td>134</td></tr><tr><th>China</th><td>134</td><td>128</td></tr><tr><th>United States</th><td>128</td><td>126</td></tr><tr><th>Australia</th><td>125</td><td>121</td></tr><tr><th>EU</th><td>113</td><td>113</td></tr><tr><th>Japan</th><td>113</td><td>111</td></tr><tr><th>Brazil</th><td>60</td><td>59</td></tr><tr><th>India</th><td>54</td><td>53</td></tr><tr><th>Chile</th><td>44</td><td>41</td></tr><tr><th>South Africa</th><td>33</td><td>35</td></tr><tr><th>Mexico</th><td>31</td><td>31</td></tr></table>\n\n\nNote: All performance scores are relative to that of the EU in 2018. Coloured bars show countries' performance in 2025 while the vertical bars show performance in 2024. Due to limited data availability for global competitors, scores are calculated using a smaller set of indicators.\n\n\nCompared to 2024, most global competitors have improved their innovation performance. Only Canada, the EU, and South Africa recorded a decline. South Korea shows the largest annual improvement (+6.3%-points), followed by China (+6.0%-points) and Australia (+3.8%-points). The gap between Australia and the United States is also narrowing.\n\n\nOver the longer term (Figure 34), all global competitors have improved their innovation performance between 2018 and 2025. Notably, the five countries that now outperform the EU have all recorded faster growth than the EU itself, thereby widening the performance gap. Among the six countries still lagging the EU, only Chile has increased its performance at a higher rate than the EU since 2018, with a gain of 15.5%-points.\n"
+  },
+  "status": 200
+}

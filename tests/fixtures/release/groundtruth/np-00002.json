@@ -1,0 +1,50 @@
+{
+  "schema_version": "0.1",
+  "document": {
+    "id": "np-00002",
+    "sha256": "1f226a8c4ac4ad926bb695eecfef6730c4f40de2fe67913df191102660b5001b",
+    "source": "born-digital",
+    "groundtruth_source": "generator",
+    "language": [
+      "en"
+    ],
+    "pages": [
+      {
+        "index": 0,
+        "width": 400,
+        "height": 300
+      }
+    ]
+  },
+  "elements": [
+    {
+      "id": "h1",
+      "class": "heading",
+      "page": 0,
+      "level": 1,
+      "text": "Stock count"
+    },
+    {
+      "id": "t1",
+      "class": "table",
+      "page": 0,
+      "text": "",
+      "header": [
+        [
+          "Item",
+          "Count"
+        ]
+      ],
+      "rows": [
+        [
+          "Blue pens",
+          "3"
+        ]
+      ]
+    }
+  ],
+  "reading_order": [
+    "h1",
+    "t1"
+  ]
+}

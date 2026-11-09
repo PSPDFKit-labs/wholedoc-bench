@@ -1,0 +1,53 @@
+[[rate]]
+when = { mode = "r-1" }
+meter = "pages"
+usd = 10.00
+per = 1000
+effective = 2026-09-01
+checked = 2026-10-22
+source = "https://docs.reducto.ai/reference/credit-usage"
+
+[[rate]]
+when = { mode = "r-1" }
+meter = "charts"
+usd = 0.06
+estimate = true
+effective = 2026-09-01
+checked = 2026-10-22
+source = "https://docs.reducto.ai/reference/credit-usage"
+
+[[rate]]
+when = { mode = "legacy" }
+meter = "pages"
+usd = 15.00
+per = 1000
+estimate = true
+effective = 2026-09-01
+checked = 2026-10-22
+source = "https://docs.reducto.ai/reference/credit-usage"
+
+[[rate]]
+when = { mode = "legacy-agentic" }
+meter = "pages"
+usd = 30.00
+per = 1000
+estimate = true
+effective = 2026-09-01
+checked = 2026-10-22
+source = "https://docs.reducto.ai/reference/credit-usage"
+
+[[rate]]
+when = { mode = "legacy" }
+meter = "charts"
+usd = 0
+effective = 2026-09-01
+checked = 2026-10-22
+source = "https://docs.reducto.ai/reference/credit-usage"
+
+[[rate]]
+when = { mode = "legacy-agentic" }
+meter = "charts"
+usd = 0
+effective = 2026-09-01
+checked = 2026-10-22
+source = "https://docs.reducto.ai/reference/credit-usage"

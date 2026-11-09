@@ -1,0 +1,574 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$defs": {
+    "Channel": {
+      "enum": [
+        "body",
+        "furniture",
+        "annotation",
+        "metadata",
+        "hidden"
+      ],
+      "title": "Channel",
+      "type": "string"
+    },
+    "Chart": {
+      "additionalProperties": false,
+      "properties": {
+        "kind": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/ChartKind"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "series": {
+          "default": [],
+          "items": {
+            "$ref": "#/$defs/ChartSeries"
+          },
+          "title": "Series",
+          "type": "array"
+        },
+        "value_axis": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/ValueAxis"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "title": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Title"
+        }
+      },
+      "title": "Chart",
+      "type": "object"
+    },
+    "ChartKind": {
+      "enum": [
+        "bar",
+        "line",
+        "area",
+        "pie",
+        "scatter",
+        "bubble",
+        "histogram",
+        "box",
+        "violin",
+        "heatmap",
+        "treemap",
+        "funnel",
+        "radar",
+        "candlestick",
+        "step",
+        "stem",
+        "combo",
+        "density",
+        "errorbar",
+        "bullet",
+        "marimekko",
+        "pyramid",
+        "span",
+        "radial_bar",
+        "parallel",
+        "stream",
+        "donut",
+        "rose",
+        "sunburst",
+        "circle_packing",
+        "proportional_area",
+        "dot_matrix",
+        "gantt",
+        "waterfall"
+      ],
+      "title": "ChartKind",
+      "type": "string"
+    },
+    "ChartPoint": {
+      "additionalProperties": false,
+      "properties": {
+        "label": {
+          "title": "Label",
+          "type": "string"
+        },
+        "value": {
+          "title": "Value",
+          "type": "number"
+        }
+      },
+      "required": [
+        "label",
+        "value"
+      ],
+      "title": "ChartPoint",
+      "type": "object"
+    },
+    "ChartSeries": {
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "default": "",
+          "title": "Name",
+          "type": "string"
+        },
+        "points": {
+          "items": {
+            "$ref": "#/$defs/ChartPoint"
+          },
+          "title": "Points",
+          "type": "array"
+        }
+      },
+      "required": [
+        "points"
+      ],
+      "title": "ChartSeries",
+      "type": "object"
+    },
+    "ElementClass": {
+      "enum": [
+        "heading",
+        "paragraph",
+        "list_item",
+        "caption",
+        "footnote",
+        "table",
+        "chart",
+        "figure",
+        "formula",
+        "code",
+        "header",
+        "footer",
+        "machine_readable"
+      ],
+      "title": "ElementClass",
+      "type": "string"
+    },
+    "Font": {
+      "additionalProperties": false,
+      "properties": {
+        "family": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Family"
+        },
+        "class": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/FontClass"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "size": {
+          "anyOf": [
+            {
+              "exclusiveMinimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Size"
+        }
+      },
+      "title": "Font",
+      "type": "object"
+    },
+    "FontClass": {
+      "enum": [
+        "serif",
+        "sans",
+        "mono",
+        "script",
+        "decorative"
+      ],
+      "title": "FontClass",
+      "type": "string"
+    },
+    "LayoutItem": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "title": "Id",
+          "type": "string"
+        },
+        "class": {
+          "$ref": "#/$defs/ElementClass"
+        },
+        "page": {
+          "minimum": 0,
+          "title": "Page",
+          "type": "integer"
+        },
+        "text": {
+          "default": "",
+          "title": "Text",
+          "type": "string"
+        },
+        "box": {
+          "anyOf": [
+            {
+              "maxItems": 4,
+              "minItems": 4,
+              "prefixItems": [
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                }
+              ],
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Box"
+        },
+        "channel": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Channel"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "md_start": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Md Start"
+        },
+        "md_end": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Md End"
+        },
+        "chart": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Chart"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "cells": {
+          "anyOf": [
+            {
+              "items": {
+                "$ref": "#/$defs/TableCell"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Cells"
+        },
+        "font": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Font"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "format": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Format"
+        },
+        "check_digits_valid": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Check Digits Valid"
+        }
+      },
+      "required": [
+        "id",
+        "class",
+        "page"
+      ],
+      "title": "LayoutItem",
+      "type": "object"
+    },
+    "Relation": {
+      "additionalProperties": false,
+      "properties": {
+        "kind": {
+          "$ref": "#/$defs/RelationKind"
+        },
+        "from": {
+          "title": "From",
+          "type": "string"
+        },
+        "to": {
+          "title": "To",
+          "type": "string"
+        },
+        "hyphenated": {
+          "default": false,
+          "title": "Hyphenated",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "kind",
+        "from",
+        "to"
+      ],
+      "title": "Relation",
+      "type": "object"
+    },
+    "RelationKind": {
+      "enum": [
+        "caption_of",
+        "footnote_of",
+        "continues_in",
+        "stays_apart"
+      ],
+      "title": "RelationKind",
+      "type": "string"
+    },
+    "TableCell": {
+      "additionalProperties": false,
+      "properties": {
+        "text": {
+          "title": "Text",
+          "type": "string"
+        },
+        "box": {
+          "anyOf": [
+            {
+              "maxItems": 4,
+              "minItems": 4,
+              "prefixItems": [
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                }
+              ],
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Box"
+        },
+        "row": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Row"
+        },
+        "column": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Column"
+        },
+        "rows": {
+          "anyOf": [
+            {
+              "minimum": 1,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Rows"
+        },
+        "columns": {
+          "anyOf": [
+            {
+              "minimum": 1,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Columns"
+        }
+      },
+      "required": [
+        "text"
+      ],
+      "title": "TableCell",
+      "type": "object"
+    },
+    "ValueAxis": {
+      "additionalProperties": false,
+      "properties": {
+        "min": {
+          "title": "Min",
+          "type": "number"
+        },
+        "max": {
+          "title": "Max",
+          "type": "number"
+        }
+      },
+      "required": [
+        "min",
+        "max"
+      ],
+      "title": "ValueAxis",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "markdown": {
+      "title": "Markdown",
+      "type": "string"
+    },
+    "layout": {
+      "default": [],
+      "items": {
+        "$ref": "#/$defs/LayoutItem"
+      },
+      "title": "Layout",
+      "type": "array"
+    },
+    "relations": {
+      "default": [],
+      "items": {
+        "$ref": "#/$defs/Relation"
+      },
+      "title": "Relations",
+      "type": "array"
+    },
+    "page_offsets": {
+      "anyOf": [
+        {
+          "items": {
+            "type": "integer"
+          },
+          "type": "array"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Page Offsets"
+    },
+    "unscored_text": {
+      "default": [],
+      "items": {
+        "type": "string"
+      },
+      "title": "Unscored Text",
+      "type": "array"
+    }
+  },
+  "required": [
+    "markdown"
+  ],
+  "title": "Prediction",
+  "type": "object"
+}
